@@ -1,7 +1,8 @@
 body{
     height: 100vh;
     position: relative;
-    background:linear-gradient(#1d1b3d calc(50vh - 275px),#49225c calc(50vh + 275px));
+    /*background:linear-gradient(#1d1b3d calc(50vh - 275px),#49225c calc(50vh + 275px));*/
+    background:linear-gradient(#2A2743 calc(50vh - 275px),#4D2D5D calc(50vh + 275px));
 }
 .vidéo{
     max-height: 550px;
@@ -30,6 +31,12 @@ h1{
     font-size: 45pt;
     margin:0px;
 }
+.image{
+    position: absolute;
+    max-height: 90px;
+    right: 550px;
+    margin-top: 5px;
+}
 h2{
     background-color: unset;
     box-shadow: unset;
@@ -38,6 +45,7 @@ h2{
 .titre{
     display: flex;
     justify-content: center;
+    margin-right: 100px;
 }
 .flex1{
     display: flex;
