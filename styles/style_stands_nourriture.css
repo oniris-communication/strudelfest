@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+}
+.stand{
+    min-height: 100px;
+    max-width:250px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.groupe{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.photo{
+    max-height: 200px;
+}
+.texte{
+    margin-top: 5px;
+}

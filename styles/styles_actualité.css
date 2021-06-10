@@ -1,0 +1,19 @@
+.cadre{
+    padding: 10px;
+    margin-bottom: 40px;
+    
+    max-width: 750px;
+}
+.gauche{
+    border-radius: 0 10px 10px 0;
+}
+.doite{
+    border-radius: 10px 0 0 10px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.groupe{
+    margin-top: 70px;
+}
