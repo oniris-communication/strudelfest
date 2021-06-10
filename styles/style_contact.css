@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(#0A0E3F,#48205A);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.imgLogo{
+    margin-bottom: 10px;
+}
+.groupe{
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    background-color: #291D69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.coordonnées{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.texte{
+    font-size: 14pt;
+}
+.carte{
+    padding: 30px;
+}
+.logoReseau{
+    max-height: 100px;
+    margin-bottom: 5px;
+}
+.logo1{
+    margin-top: 10px;
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+.insta{
+    text-align: center;
+    margin: 10px;
+}
+.twitter{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youtube{
+    margin: 10px;
+    text-align: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+.réseaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.identifiant{
+    font-size: 14pt;
+}

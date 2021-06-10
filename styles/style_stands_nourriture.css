@@ -1,5 +1,6 @@
 body{
     min-height: 100vh;
+    background:linear-gradient(#0A0E3F,#48205A);
 }
 .stand{
     min-height: 100px;

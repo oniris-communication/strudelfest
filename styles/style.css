@@ -2,7 +2,8 @@ body{
     font-family: 'Ubuntu', sans-serif;
     color: white;
     margin: 0px;
-    background:linear-gradient(#0A0E3F,#48205A);
+    /*background:linear-gradient(#0A0E3F,#48205A);*/
+    /*background:linear-gradient(#1d1b3d calc(50vh - 275px),#49225c calc(50vh + 275px));*/
     background-repeat: no-repeat;
 }
 
@@ -24,7 +25,7 @@ header{
     font-size: 20pt;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 .imgLogo{
     margin-top: 15px;
@@ -62,7 +63,7 @@ h3{
     font-size: 15pt;
 }
 .jaune{
-    background: #FFE828;
+    background: #dfcb18;
 }
 .rose{
     background: #FF3162;

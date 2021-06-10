@@ -1,19 +1,31 @@
+body{
+    background:linear-gradient(#0A0E3F,#48205A);
+    
+}
 .cadre{
     padding: 10px;
     margin-bottom: 40px;
     
-    max-width: 750px;
+    max-width: 500px;
 }
 .gauche{
-    border-radius: 0 10px 10px 0;
+    border-radius: 15px;
+    margin-left: 90px;
 }
 .doite{
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px;
 }
 .flex{
     display: flex;
     justify-content: flex-end;
+    margin-right: 90px;
 }
 .groupe{
     margin-top: 70px;
+}
+.texte{
+    font-size: large;
+}
+h3{
+    font-size: 16pt;
 }

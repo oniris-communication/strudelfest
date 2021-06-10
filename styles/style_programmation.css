@@ -1,3 +1,6 @@
+body{
+    background:linear-gradient(#0A0E3F,#48205A);
+}
 .programmation{
     display: flex;
     justify-content: center;
