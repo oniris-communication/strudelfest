@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track{
     background-color: #0A0E3F;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: white;
+    background-color: rgb(214, 212, 212);
     opacity: 60%;
     border-radius: 10px;
 }
@@ -29,7 +29,7 @@ header{
     padding-left: 10px;
     padding-right: 30px;
     padding-top: 5px;
-    background-color: #291D69;
+    background-color: #0A0E3F;
     position: fixed;
     left: 0;
     top: 0;
@@ -55,7 +55,14 @@ a{
     text-decoration: none;
     color: white;
 }
-
+.secondaire{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.secondaire:hover {
+    color: white;
+    opacity: 100%;
+}
 /*Contenu body*/
 h2{
     margin-top: 80px;
@@ -70,10 +77,8 @@ h2{
     margin: auto;
     margin-top: 100px;
 }
-.secondaire{
-    color: #FFFFFF;
-    opacity: 60%;
-}
+
+
 h3{
     font-size: 15pt;
 }
@@ -98,13 +103,21 @@ footer{
     justify-content: center;
 }
 .logoPartenaire{
-    max-width: 150px;
+    max-height: 50px;
+}
+.logoPartenaire1{
+    max-height:40px ;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 .liens{
     margin-top: 15px;
     font-size: 15pt;
     display: flex;
     justify-content: space-around;
+}
+.footerLien:hover{
+    text-decoration: underline;
 }
 
 

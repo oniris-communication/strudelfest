@@ -1,8 +1,8 @@
 body{
     height: 100vh;
     position: relative;
-    /*background:linear-gradient(#1d1b3d calc(50vh - 275px),#49225c calc(50vh + 275px));*/
-    background:linear-gradient(#2A2743 calc(50vh - 275px),#4D2D5D calc(50vh + 275px));
+    background:linear-gradient(#1d1b3d calc(50vh - 275px),#49225c calc(50vh + 275px));
+    /*background:linear-gradient(#2A2743 calc(50vh - 275px),#4D2D5D calc(50vh + 275px));*/
 }
 .vidéo{
     max-height: 550px;
@@ -10,6 +10,12 @@ body{
     margin-right: 90px;
     margin-left: 50px;
     
+}
+audio{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    max-width: 110px
 }
 .contenu{
     height: 100vh;

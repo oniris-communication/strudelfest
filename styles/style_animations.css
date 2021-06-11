@@ -2,19 +2,29 @@ body{
     min-height: 100vh;
     background:linear-gradient(#0A0E3F,#48205A);
 }
-.image{
+/*.image{
     border-radius: 1000px;
+}*/
+img{
+    max-height: 95px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 .rond{
     height: 20%;
 }
 .rond{
-    width: 240px;
-    height: 240px;
+    width: 280px;
+    height: 280px;
     padding: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 100%;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.15);
 }
